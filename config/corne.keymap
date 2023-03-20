@@ -56,13 +56,15 @@
                         >;
                 };
 
-                third_layer {
-                        bindings = <
-   &kp ESC &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &trans      &trans &trans &trans &trans &kp BSPC
-   &kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RET
-   &trans &mkp RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &trans             &mkp LCLK &trans &trans &trans &trans
-   &kp LGUI &sk LSHIFT &mt LCTRL BSPC                                  &mt LAT &to 2 &to 0
-                        >;
-                };
+                third_layer {};
+
+   //              third_layer {
+   //                      bindings = <
+   // &kp ESC &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &trans      &trans &trans &trans &trans &kp BSPC
+   // &kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RET
+   // &trans &mkp RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &trans             &mkp LCLK &trans &trans &trans &trans
+   // &kp LGUI &sk LSHIFT &mt LCTRL BSPC                                  &mt LAT &to 2 &to 0
+   //                      >;
+   //              };
         };
 };
