@@ -9,10 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#define DEFAULT 0
+//#define DEFAULT 0
 #define FIRST   1
 #define SECOND  2
-#define THIRD   3
+//#define THIRD   3
 
 &mt {
     flavor = "tap-preferred";
@@ -27,9 +27,6 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
-                   default_layer {bindings = <>;};
-
    //              default_layer {
    //                      bindings = <
    // &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U  &kp I     &kp O   &kp P
@@ -55,8 +52,6 @@
    &kp LGUI &sk LSHIFT &mt LCTRL BSPC                     &mt LALT SPACE &trans &to 3
                         >;
                 };
-
-                third_layer {bindings = <>;};
 
    //              third_layer {
    //                      bindings = <
