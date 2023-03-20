@@ -37,15 +37,6 @@
                         >;
                 };
 
-   //              default_layer {
-   //                      bindings = <
-   // &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U  &kp I     &kp O   &kp P
-   // &kp A &kp S &kp D &kp F &kp G        &kp H &kp J  &kp K     &kp L   &kp SEMI
-   // &kp Z &kp X &kp C &kp V &kp B        &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-   // &kp LGUI &sk LSHIFT &mt LCTRL BSPC   &mt LALT SPACE &sl 1 &kp RGUI
-   //                      >;
-   //              };
-
                 first_layer {
                         bindings = <
    &kp ESC  &kp EXCL &kp AT &kp DLLR &kp PRCNT    &trans &kp N7 &kp N8 &kp N9 &kp BSPC
@@ -64,13 +55,13 @@
                         >;
                 };
 
-   //              third_layer {
-   //                      bindings = <
-   // &kp ESC &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &trans      &trans &trans &trans &trans &kp BSPC
-   // &kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RET
-   // &trans &mkp RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &trans             &mkp LCLK &trans &trans &trans &trans
-   // &kp LGUI &sk LSHIFT &mt LCTRL BSPC                                  &mt LALT SPACE &to 2 &to 0
-   //                      >;
-   //              };
+                third_layer {
+                        bindings = <
+   &kp ESC &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &trans      &trans &trans &trans &trans &kp BSPC
+   &kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RET
+   &trans &mkp RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &trans             &mkp LCLK &trans &trans &trans &trans
+   &kp LGUI &sk LSHIFT &mt LCTRL BSPC                                  &mt LALT SPACE &to 2 &to 0
+                        >;
+                };
         };
 };
