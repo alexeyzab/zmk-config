@@ -28,7 +28,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                   default_layer {};
+                   default_layer {bindings = <>;};
 
    //              default_layer {
    //                      bindings = <
@@ -56,7 +56,7 @@
                         >;
                 };
 
-                third_layer {};
+                third_layer {bindings = <>;};
 
    //              third_layer {
    //                      bindings = <
