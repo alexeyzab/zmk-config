@@ -30,7 +30,7 @@
 
                 default_layer {
                         bindings = <
-   &trans &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U  &kp I     &kp O   &kp P &trans
+   &trans &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U  &kp I     &kp O   &kp P  &trans
    &trans &kp A &kp S &kp D &kp F &kp G        &kp H &kp J  &kp K     &kp L   &kp SEMI &trans
    &trans &kp Z &kp X &kp C &kp V &kp B        &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &trans
    &kp LGUI &sk LSHIFT &mt LCTLR BSPC   &mt LALT SPACE &sl 1 &kp RGUI
@@ -38,27 +38,27 @@
                 };
                 first_layer {
                         bindings = <
-   &kp ESC  &kp EXCL &kp AT &kp DLLR &kp PRCNT    &trans &kp N7 &kp N8 &kp N9 &kp BSPC
-   &kp TAB  &kp LPAR &kp RPAR &kp MINUS &kp SQT   &kp AMPS &kp N4 &kp N5 &kp N6 &kp RET
-   &kp LBKT &kp RBKT &kp HASH &kp LBRC &kp RBRC   &kp N0 &kp N1 &kp N2 &kp N3 &kp EQUAL
+   &trans &kp ESC  &kp EXCL &kp AT &kp DLLR &kp PRCNT    &trans &kp N7 &kp N8 &kp N9 &kp BSPC &trans
+   &trans &kp TAB  &kp LPAR &kp RPAR &kp MINUS &kp SQT   &kp AMPS &kp N4 &kp N5 &kp N6 &kp RET &trans
+   &trans &kp LBKT &kp RBKT &kp HASH &kp LBRC &kp RBRC   &kp N0 &kp N1 &kp N2 &kp N3 &kp EQUAL &trans
    &kp LGUI &sk LSHIFT &kp GRAVE                  &kp BSLH &to 0 &to 2
                         >;
                 };
 
                 second_layer {
                         bindings = <
-   &kp ESC &kp C_PP &kp C_PREV &kp C_NEXT &trans          &trans &trans &trans &trans &kp BSPC
-   &kp TAB &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans    &trans &trans &trans &trans &kp RET
-   &trans &trans &kp C_BRI_DN &kp C_BRI_UP &trans         &trans &trans &trans &trans &trans
+   &trans &kp ESC &kp C_PP &kp C_PREV &kp C_NEXT &trans          &trans &trans &trans &trans &kp BSPC &trans
+   &trans &kp TAB &kp K_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans    &trans &trans &trans &trans &kp RET &trans
+   &trans &trans &trans &kp C_BRI_DN &kp C_BRI_UP &trans         &trans &trans &trans &trans &trans &trans
    &kp LGUI &sk LSHIFT &mt LCTRL BSPC                     &mt LALT SPACE &trans &to 3
                         >;
                 };
 
                 third_layer {
                         bindings = <
-   &kp ESC &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &trans      &trans &trans &trans &trans &kp BSPC
-   &kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RET
-   &trans &mkp RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &trans             &mkp LCLK &trans &trans &trans &trans
+   &trans &kp ESC &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &trans      &trans &trans &trans &trans &kp BSPC &trans
+   &trans &kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans        &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp RET &trans
+   &trans &trans &mkp RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &trans             &mkp LCLK &trans &trans &trans &trans &trans
    &kp LGUI &sk LSHIFT &mt LCTRL BSPC                                  &mt LAT &to 2 &to 0
                         >;
                 };
