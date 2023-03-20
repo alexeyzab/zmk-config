@@ -41,7 +41,7 @@
    &kp ESC  &kp EXCL &kp AT &kp DLLR &kp PRCNT    &trans &kp N7 &kp N8 &kp N9 &kp BSPC
    &kp TAB  &kp LPAR &kp RPAR &kp MINUS &kp SQT   &kp AMPS &kp N4 &kp N5 &kp N6 &kp RET
    &kp LBKT &kp RBKT &kp HASH &kp LBRC &kp RBRC   &kp N0 &kp N1 &kp N2 &kp N3 &kp EQUAL
-   &kp LGUI &sk LSHIFT &kp GRAVE                  &kp BSLH  &to 0 &to 2
+   &kp LGUI &sk LSHIFT &kp GRAVE                  &kp BSLH &to 0 &to 2
                         >;
                 };
 
